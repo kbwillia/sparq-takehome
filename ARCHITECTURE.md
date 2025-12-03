@@ -3,7 +3,6 @@
 ## High-Level Architecture Diagram
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'fontSize':'20px', 'fontFamily':'arial', 'nodeSpacing':80, 'rankSpacing':80, 'background':'transparent', 'mainBkg':'transparent', 'clusterBkg':'transparent'}}}%%
 graph TB
     subgraph "User Layer"
         Student[Student Interface]
@@ -93,12 +92,12 @@ graph TB
     Format --> Feedback
     Metrics --> Alert
 
-    style Gateway fill:#b3d9ff,stroke:#0066cc,stroke-width:3px,color:#000
-    style LLMOrch fill:#ffd966,stroke:#cc8800,stroke-width:3px,color:#000
-    style VectorDB fill:#d9b3ff,stroke:#7700cc,stroke-width:3px,color:#000
-    style StudentDB fill:#ffb3b3,stroke:#cc0000,stroke-width:3px,color:#000
-    style Guard fill:#b3ffb3,stroke:#00aa00,stroke-width:3px,color:#000
-    style Logs fill:#d9d9d9,stroke:#666666,stroke-width:3px,color:#000
+    style Gateway fill:#e1f5ff,stroke:#0066cc,stroke-width:2px,color:#000
+    style LLMOrch fill:#fff4e1,stroke:#cc8800,stroke-width:2px,color:#000
+    style VectorDB fill:#f0e1ff,stroke:#7700cc,stroke-width:2px,color:#000
+    style StudentDB fill:#ffe1e1,stroke:#cc0000,stroke-width:2px,color:#000
+    style Guard fill:#e1ffe1,stroke:#00aa00,stroke-width:2px,color:#000
+    style Logs fill:#f5f5f5,stroke:#666666,stroke-width:2px,color:#000
 ```
 
 ## Architecture Components Overview
