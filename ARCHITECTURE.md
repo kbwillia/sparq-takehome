@@ -3,7 +3,7 @@
 ## High-Level Architecture Diagram
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'fontSize':'20px', 'fontFamily':'arial', 'nodeSpacing':80, 'rankSpacing':80}}}%%
+%%{init: {'theme':'base', 'themeVariables': {'fontSize':'20px', 'fontFamily':'arial', 'nodeSpacing':80, 'rankSpacing':80, 'background':'transparent', 'mainBkg':'transparent', 'clusterBkg':'transparent'}}}%%
 graph TB
     subgraph "User Layer"
         Student[Student Interface]
