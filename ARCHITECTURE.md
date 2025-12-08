@@ -1,5 +1,7 @@
 # AI Knowledge Assistant - System Architecture
 
+> 📝 **Note**: An editable draw.io version of this diagram is available in `architecture-diagram.drawio`
+
 ## High-Level Architecture Diagram
 
 ```mermaid
@@ -33,7 +35,7 @@ graph TB
     subgraph "Knowledge Retrieval"
         VectorDB[(Vector Database<br/>Pinecone/Weaviate/Qdrant)]
         MetaDB[(Metadata Store<br/>PostgreSQL)]
-        Cache[Semantic Cache<br/>Redis]
+        Cache[Semantic Cache<br/>JSON File-Based]
     end
 
     subgraph "Structured Data"

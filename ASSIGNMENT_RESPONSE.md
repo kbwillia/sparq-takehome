@@ -1,6 +1,6 @@
 # SPARQ AI Engineering Assignment Response
 
-**Candidate**: [Kyle Wilson]
+**Candidate**: [Kyle Williams]
 **Date**: December 3, 2025
 
 ---

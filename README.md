@@ -1,4 +1,4 @@
-# SPARQ AI Engineering Assignment - Kyle Wilson
+# SPARQ AI Engineering Assignment - Kyle Williams
 
 ## Overview
 
@@ -15,6 +15,28 @@ Contains a detailed Mermaid diagram illustrating the complete system architectur
 - Data processing pipelines
 - Knowledge retrieval systems
 - Monitoring and governance infrastructure
+
+**Editable draw.io version** also available: [architecture-diagram.drawio](architecture-diagram.drawio)
+
+### 📖 [ARCHITECTURE_EXPLAINED.md](ARCHITECTURE_EXPLAINED.md)
+**Detailed Component Explanations with Examples**
+
+A comprehensive guide explaining each architectural component with practical examples:
+- Real-world use cases for each component
+- Example queries and responses
+- Technical implementation details
+- Data flow illustrations
+- Security and compliance examples
+
+### 💻 [CODEBASE_ARCHITECTURE.md](CODEBASE_ARCHITECTURE.md)
+**Complete Codebase Structure & Implementation**
+
+A detailed codebase architecture showing how everything works together:
+- Single frontend with role-based authentication
+- Python backend with FastAPI
+- JSON file-based caching (like your RAG project)
+- Authentication before RAG pipeline
+- Complete code examples for all components
 
 ### 📝 [ASSIGNMENT_RESPONSE.md](ASSIGNMENT_RESPONSE.md)
 **Complete Assignment Responses**
