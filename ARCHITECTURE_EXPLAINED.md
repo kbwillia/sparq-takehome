@@ -68,7 +68,7 @@ Interface Features:
 
 **Technical Implementation**:
 - Role: "counselor" (highest permissions)
-- Additional FERPA compliance training verification
+- Additional FERPA compliance training .
 - Audit logging for all data access
 - Multi-factor authentication required
 
