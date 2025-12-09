@@ -540,7 +540,7 @@ class RAGService:
         # Generate new embedding
         import openai
         response = openai.embeddings.create(
-            model="text-embedding-ada-002",
+            model="text-embedding-text-embedding-3-small",
             input=query
         )
         embedding = response.data[0].embedding

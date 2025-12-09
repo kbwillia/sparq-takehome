@@ -524,7 +524,7 @@ Input Text: "Students must complete 24 credits to graduate, including 4 English,
 3 Math, 3 Science, and 3 Social Studies"
 
 Embedding Process:
-1. Send to OpenAI Ada-002 API
+1. Send to OpenAI text-embedding-3-small API
 2. Receive 1536-dimensional vector: [0.023, -0.15, 0.089, ...]
 3. Store in vector database
 
@@ -554,7 +554,7 @@ Cosine Similarity:
 ```
 
 **Technical Implementation**:
-- OpenAI text-embedding-ada-002 (1536 dimensions)
+- OpenAI text-embedding-text-embedding-3-small (1536 dimensions)
 - Alternative: Cohere embed-english-v3.0 (768 dimensions)
 - Batch processing: 100 chunks at a time
 - Cost: ~$0.0001 per 1K tokens

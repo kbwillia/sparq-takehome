@@ -29,12 +29,11 @@ graph TB
         Ingest[Document Ingestion Service]
         Parser[Multi-Format Parser<br/>PDF, DOCX, HTML, CSV]
         Chunk[Chunking & Preprocessing]
-        Embed[Embedding Generation<br/>OpenAI Ada-002 / Cohere]
+        Embed[Embedding Generation<br/>OpenAI text-embedding-3-small / Cohere]
     end
 
     subgraph "Knowledge Retrieval"
         VectorDB[(Vector Database<br/>Pinecone/Weaviate/Qdrant)]
-        MetaDB[(Metadata Store<br/>PostgreSQL)]
         Cache[Semantic Cache<br/>JSON File-Based]
     end
 
@@ -70,7 +69,6 @@ graph TB
     Guard --> LLMOrch
 
     LLMOrch --> VectorDB
-    LLMOrch --> MetaDB
     LLMOrch --> Cache
     LLMOrch --> StudentDB
 
@@ -81,7 +79,6 @@ graph TB
     Parser --> Chunk
     Chunk --> Embed
     Embed --> VectorDB
-    Embed --> MetaDB
 
     LLMOrch --> FactCheck
     FactCheck --> Bias
@@ -129,7 +126,6 @@ graph TB
 
 ### 5. Knowledge Retrieval
 - **Vector Database**: Fast similarity search across embedded documents
-- **Metadata Store**: Document metadata, access controls, versioning
 - **Semantic Cache**: Cache similar queries to reduce cost/latency
 
 ### 6. Structured Data Layer

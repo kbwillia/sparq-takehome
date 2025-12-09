@@ -24,7 +24,7 @@
 - **Multi-format parser** supporting PDFs, Word docs, HTML, and structured data (CSV/JSON)
 - **Intelligent chunking** with overlap to preserve context (500-1000 tokens per chunk)
 - **Metadata extraction** (document type, date, department, access level, version)
-- **Embedding generation** using OpenAI Ada-002 or similar for semantic search
+- **Embedding generation** using OpenAI text-embedding-3-small or similar for semantic search
 
 #### Knowledge Storage Layer
 - **Vector database** (Pinecone/Weaviate/Qdrant) for semantic similarity search
